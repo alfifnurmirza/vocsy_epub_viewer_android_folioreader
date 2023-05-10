@@ -327,7 +327,7 @@ class FolioWebView : WebView {
             loadUrl("javascript:clearSelection()")
             loadUrl("javascript:deleteThisHighlight()")
         }
-
+//        update remove copy and share
 //        viewTextSelection.copySelection.setOnClickListener {
 //            dismissPopupWindow()
 //            loadUrl("javascript:onTextSelectionItemClicked(${it.id})")
