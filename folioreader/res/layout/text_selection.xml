@@ -16,23 +16,23 @@
             android:layout_height="wrap_content"
             android:background="?popUpWindowBackground">
 
-            <LinearLayout
-                android:id="@+id/firstSectionLayout"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent">
+<!--            <LinearLayout-->
+<!--                android:id="@+id/firstSectionLayout"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="horizontal"-->
+<!--                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                app:layout_constraintStart_toStartOf="parent"-->
+<!--                app:layout_constraintTop_toTopOf="parent">-->
 
-                <TextView
-                    android:id="@+id/defineSelection"
-                    style="@style/TextViewTextSelector"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/define" />
+<!--                <TextView-->
+<!--                    android:id="@+id/defineSelection"-->
+<!--                    style="@style/TextViewTextSelector"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="@string/define" />-->
 
-            </LinearLayout>
+<!--            </LinearLayout>-->
 
             <View
                 android:id="@+id/firstHorizontalDivider"

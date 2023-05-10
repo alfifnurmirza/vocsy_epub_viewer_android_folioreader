@@ -327,10 +327,10 @@ class FolioWebView : WebView {
             loadUrl("javascript:clearSelection()")
             loadUrl("javascript:deleteThisHighlight()")
         }
-        viewTextSelection.defineSelection.setOnClickListener {
-            dismissPopupWindow()
-            loadUrl("javascript:onTextSelectionItemClicked(${it.id})")
-        }
+//        viewTextSelection.defineSelection.setOnClickListener {
+//            dismissPopupWindow()
+//            loadUrl("javascript:onTextSelectionItemClicked(${it.id})")
+//        }
     }
 
     @JavascriptInterface
@@ -338,15 +338,15 @@ class FolioWebView : WebView {
 
         uiHandler.post { loadUrl("javascript:clearSelection()") }
 
-        when (id) {
-            R.id.defineSelection -> {
-                Log.v(LOG_TAG, "-> onTextSelectionItemClicked -> defineSelection -> $selectedText")
-                uiHandler.post { showDictDialog(selectedText) }
-            }
-            else -> {
-                Log.w(LOG_TAG, "-> onTextSelectionItemClicked -> unknown id = $id")
-            }
-        }
+//        when (id) {
+//            R.id.defineSelection -> {
+//                Log.v(LOG_TAG, "-> onTextSelectionItemClicked -> defineSelection -> $selectedText")
+//                uiHandler.post { showDictDialog(selectedText) }
+//            }
+//            else -> {
+//                Log.w(LOG_TAG, "-> onTextSelectionItemClicked -> unknown id = $id")
+//            }
+//        }
     }
 
     private fun showDictDialog(selectedText: String?) {
