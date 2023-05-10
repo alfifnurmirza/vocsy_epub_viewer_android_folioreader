@@ -24,20 +24,6 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent">
-<!--update remove copy and share-->
-<!--                <TextView-->
-<!--                    android:id="@+id/copySelection"-->
-<!--                    style="@style/TextViewTextSelector"-->
-<!--                    android:layout_width="wrap_content"-->
-<!--                    android:layout_height="wrap_content"-->
-<!--                    android:text="@string/copy" />-->
-
-<!--                <TextView-->
-<!--                    android:id="@+id/shareSelection"-->
-<!--                    style="@style/TextViewTextSelector"-->
-<!--                    android:layout_width="wrap_content"-->
-<!--                    android:layout_height="wrap_content"-->
-<!--                    android:text="@string/share" />-->
 
                 <TextView
                     android:id="@+id/defineSelection"
